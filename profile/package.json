@@ -11,7 +11,7 @@
   },
   "homepage":{
     "private": true,
-    "homepage": "https://alicezhang821.github.io/profile"
+    "homepage": "https://alicezhang821.github.io/Profile/"
   },
   "scripts": {
     "predeploy": "npm run build",
