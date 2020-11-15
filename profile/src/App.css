@@ -1,3 +1,9 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -12,21 +18,176 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@font-face {
+  font-family: 'Bold';
+  src: url('./Kumbh_Sans/KumbhSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Light';
+  src: url('./Kumbh_Sans/KumbhSans-Light.ttf');
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('./Kumbh_Sans/KumbhSans-Regular.ttf');
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+}
+.bg {
+  /* The image used */
+  background-color: hsl(185, 75%, 39%);
+  min-height:100vh;
+  padding: 0;
+
+}
+
+.Upper {
+background-repeat: no-repeat;
+height:100vh;
+background-image: url(./images/bg-pattern-top.svg);
+background-position: -40vh -70vh;
+}
+.Bottom {
+background-repeat: no-repeat;
+height:100vh;
+background-image: url(./images/bg-pattern-bottom.svg);
+background-position: 100vh 40vh;
+}
+.Middle {
+background-repeat: no-repeat;
+height:150px;
+background-image: url(./images/bg-pattern-card.svg);
+width:100%;
+border-radius: 25px 25px 0px 0px;
+}
+.whitebg {
+  position:absolute;
+  top:23%;
+  left:35.5%;
+  height:30%;
+  width:32%;
+  color :solid hsl(0, 0%, 59%);
+  border-radius: 50%;
+  border-width: 10%;
+  background-repeat: no-repeat;
+  background-color:#FFFFFF;
+}
+
+.name{
+  position:absolute;
+  font-weight:bold;
+  top:53%;
+  left:35.5%;
+  font-family: 'Regular';
+  font-size: 18px;
+
+}
+.follower{
+  position:absolute;
+  font-weight:bold;
+  top:80%;
+  left:20%;
+  font-family: 'Bold';
+  font-size: 18px;
+}
+.text1{
+  position:absolute;
+  top:87%;
+  left:15%;
+  font-family: 'Light';
+  size: 10px;
+  color:hsl(0, 0%, 59%);
+}
+.likes{
+  position:absolute;
+  font-weight:bold;
+  top:80%;
+  left:45%;
+  font-family: 'Bold';
+  font-size: 18px;
+}
+.text2{
+  position:absolute;
+  top:87%;
+  left:46%;
+  font-family: 'Light';
+  size: 10px;
+  color:hsl(0, 0%, 59%);
+}
+.photos{
+  position:absolute;
+  font-weight:bold;
+  top:80%;
+  left:72%;
+  font-family: 'Bold';
+  font-size: 18px;
+
+}
+.text3{
+  position:absolute;
+  top:87%;
+  left:70%;
+  font-family: 'Light';
+  size: 10px;
+  color:hsl(0, 0%, 59%);
+}
+.age{
+  position:absolute;
+  top:53%;
+  left:67%;
+  font-family: 'Regular';
+  font-size: 18px;
+  color:hsl(0, 0%, 59%)
+}
+.location{
+  position:absolute;
+  top:60%;
+  left:42%;
+  font-family: 'Regular';
+  font-size: 18px;
+  color:hsl(0, 0%, 59%)
+}
+.line{
+  position:absolute;
+  top:78%;
+  width:100%;
+  height:1px;
+  background-color: #000000;
+  font-size: 18px;
+
+}
+.photo {
+  position:absolute;
+  top:25%;
+  left:37.5%;
+  height:25%;
+  width:28%;
+  color :solid hsl(0, 0%, 59%);
+  border-radius: 50%;
+  border-color: #FFFFFF;
+  border-width: 10%;
+  background-repeat: no-repeat;
+  background-image: url(./images/image-victor.jpg);
+}
+.rcorners2 {
+    position:absolute;
+    border-radius: 25px;
+    top: 25%;
+    left: 35%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 55vh;
+    background-position: 50vh 100vh;
+    background-color: #FFFFFF;
 }
 
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
